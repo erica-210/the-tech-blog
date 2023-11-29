@@ -29,7 +29,7 @@ async function editFormHandler(event) {
   } else {
     const errorMessage = await response.text();
     alert(`Error: ${errorMessage}`);
-  }
-  }
+  }}
+  };
   
   document.querySelector(".edit-post-form").addEventListener("submit", editFormHandler);
