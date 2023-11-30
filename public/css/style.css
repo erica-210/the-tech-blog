@@ -5,7 +5,7 @@
   }
   
   header, .project:not(:last-child) {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #3b2727;
   }
   
   .wrapper{
@@ -84,18 +84,18 @@
   }
   
   .post-title a:link{
-    color: #617ab7;
+    color: #39559c;
     text-decoration: none;
   }
   
   .post-title a:visited{
-    color: #617ab7;
+    color: #39559c;
     text-decoration: none;
   }
   
   .post-title a:hover{
     text-decoration: none;
-    color: #0e506e;
+    color: #39559c;
   }
   
   .post-content{
@@ -167,7 +167,7 @@
   .comment-container{
     margin-top: 20px;
     padding: 10px;
-    border: 1px #d3d3d3 solid;
+    border: 1px #3b2727 solid;
     border-radius: 10px;
   }
   
@@ -190,7 +190,7 @@
     margin-left: 10px;
   }
   .dashboard-post{
-    border: 1px #d3d3d3 solid;
+    border: 1px #3b2727 solid;
   }
   
   .new-post-button{
