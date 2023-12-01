@@ -1,7 +1,5 @@
 //Sign up submission
-const confirmed = confirm("Are you sure you want to sign up?");
-if (confirmed) {
-  signupFormHandler(event);
+
   async function signupFormHandler(event) {
     event.preventDefault();
     // Collect values from the sign up form
@@ -28,7 +26,7 @@ if (confirmed) {
       alert("Please enter both username and password.");
     }
   }
-}
+
 
 document
   .querySelector("#signup-form")

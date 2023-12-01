@@ -1,5 +1,4 @@
-const confirmed = confirm("Are you sure you want to log out?");
-if (confirmed) {
+
   async function logout() {
     const response = await fetch("/api/users/logout", {
       method: "post",
@@ -13,7 +12,7 @@ if (confirmed) {
       alert(`Logout failed: ${errorMessage}`);
     }
   }
-}
+
 document.addEventListener("click", (event) => {
   if (event.target.id === "logout") {
     logout();
